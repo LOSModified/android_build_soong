@@ -42,7 +42,6 @@ var (
 	arm64Ldflags = []string{
 		"-Wl,--hash-style=gnu",
 		"-Wl,-z,separate-code",
-		"-Wl,--icf=safe",
 	}
 
 	arm64Lldflags = append(ClangFilterUnknownLldflags(arm64Ldflags),
