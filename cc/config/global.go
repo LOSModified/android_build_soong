@@ -85,7 +85,6 @@ var (
 		"-Wl,-z,relro",
 		"-Wl,-z,now",
 		"-Wl,--build-id=md5",
-		"-Wl,--warn-shared-textrel",
 		"-Wl,--fatal-warnings",
 		"-Wl,--no-undefined-version",
 		"-Wl,--exclude-libs,libgcc.a",
