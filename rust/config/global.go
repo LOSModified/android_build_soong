@@ -39,6 +39,7 @@ var (
 		"-C codegen-units=1",
 		"-C opt-level=3",
 		"-C relocation-model=pic",
+		"--color always",
 	}
 
 	deviceGlobalRustFlags = []string{}
