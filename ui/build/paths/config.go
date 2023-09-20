@@ -135,6 +135,7 @@ var Configuration = map[string]PathConfig{
 	"rsync":          Allowed,
 	"sh":             Allowed,
 	"size":           Allowed,
+	"soong_zip":      Allowed,
 	"stubby":         Allowed,
 	"tr":             Allowed,
 	"unzip":          Allowed,
