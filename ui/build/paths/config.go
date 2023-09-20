@@ -121,6 +121,7 @@ var Configuration = map[string]PathConfig{
 
 	"python3.6":  Allowed,
 	"python3.8":  Allowed,
+	"python3.9":  Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
