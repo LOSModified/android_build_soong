@@ -116,6 +116,7 @@ var Configuration = map[string]PathConfig{
 	"stubby":  Allowed,
 	"tr":      Allowed,
 	"unzip":   Allowed,
+	"zcat":    Allowed,
 	"zip":     Allowed,
 
 	"python3.6":  Allowed,
