@@ -111,6 +111,7 @@ var Configuration = map[string]PathConfig{
 	"java":           Allowed,
 	"javap":          Allowed,
 	"ld.lld":         Allowed,
+	"llvm-addr2line": Allowed,
 	"llvm-ar":        Allowed,
 	"llvm-nm":        Allowed,
 	"locale":         Allowed,
@@ -140,6 +141,7 @@ var Configuration = map[string]PathConfig{
 	"zip":            Allowed,
 	"zip2zip":        Allowed,
 	"[":              Allowed,
+
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
