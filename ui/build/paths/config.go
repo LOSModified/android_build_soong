@@ -108,6 +108,7 @@ var Configuration = map[string]PathConfig{
 	"numfmt":  Allowed,
 	"openssl": Allowed,
 	"pahole":  Allowed,
+	"patch":   Allowed,
 	"perl":    Allowed,
 	"pstree":  Allowed,
 	"python3": Allowed,
@@ -116,6 +117,7 @@ var Configuration = map[string]PathConfig{
 	"sh":      Allowed,
 	"size":    Allowed,
 	"stubby":  Allowed,
+	"tar":     Allowed,
 	"tr":      Allowed,
 	"unzip":   Allowed,
 	"xz":      Allowed,
@@ -125,6 +127,7 @@ var Configuration = map[string]PathConfig{
 	"[":       Allowed,
 
 	"python3.6":  Allowed,
+	"python3.7":  Allowed,
 	"python3.8":  Allowed,
 	"python3.9":  Allowed,
 	"python3.10": Allowed,
@@ -146,7 +149,7 @@ var Configuration = map[string]PathConfig{
 	"ld":         Forbidden,
 	"ld.bfd":     Forbidden,
 	"ld.gold":    Forbidden,
-	"pkg-config": Forbidden,
+	"pkg-config": Allowed,
 
 	// These are toybox tools that only work on Linux.
 	"pgrep": LinuxOnlyPrebuilt,
