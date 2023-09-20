@@ -109,6 +109,7 @@ var Configuration = map[string]PathConfig{
 	"pahole":  Allowed,
 	"perl":    Allowed,
 	"pstree":  Allowed,
+	"python3": Allowed,
 	"repo":    Allowed,
 	"rsync":   Allowed,
 	"sh":      Allowed,
@@ -116,6 +117,9 @@ var Configuration = map[string]PathConfig{
 	"tr":      Allowed,
 	"unzip":   Allowed,
 	"zip":     Allowed,
+
+	"python3.6":  Allowed,
+	"python3.8":  Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
