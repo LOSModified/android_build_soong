@@ -125,6 +125,7 @@ var Configuration = map[string]PathConfig{
 	"python3.9":  Allowed,
 	"python3.10": Allowed,
 	"python3.11": Allowed,
+	"soong_zip":  Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
