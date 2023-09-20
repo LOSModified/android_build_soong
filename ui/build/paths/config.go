@@ -114,6 +114,7 @@ var Configuration = map[string]PathConfig{
 	"javap":          Allowed,
 	"jq":             Allowed,
 	"ld.lld":         Allowed,
+	"llvm-addr2line": Allowed,
 	"llvm-ar":        Allowed,
 	"llvm-nm":        Allowed,
 	"locale":         Allowed,
