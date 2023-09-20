@@ -118,6 +118,7 @@ var Configuration = map[string]PathConfig{
 	"unzip":   Allowed,
 	"zcat":    Allowed,
 	"zip":     Allowed,
+	"zip2zip": Allowed,
 
 	"python3.6":  Allowed,
 	"python3.8":  Allowed,
