@@ -128,6 +128,8 @@ var Configuration = map[string]PathConfig{
 	"python3.11": Allowed,
 	"soong_zip":  Allowed,
 
+	"llvm-addr2line":                     Allowed,
+
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
 	"ar":         Forbidden,
