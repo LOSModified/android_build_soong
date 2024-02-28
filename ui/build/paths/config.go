@@ -122,6 +122,7 @@ var Configuration = map[string]PathConfig{
 	"zcat":    Allowed,
 	"zip":     Allowed,
 	"zip2zip": Allowed,
+	"[":       Allowed,
 
 	"python3.6":  Allowed,
 	"python3.8":  Allowed,
