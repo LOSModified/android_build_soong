@@ -268,7 +268,17 @@ com\.nvidia
 com\.nvidia\..*
 
 # OPLUS adds
+com\.oneplus
+com\.oneplus\..*
+com\.oplus
 com\.oplus\..*
+net\.oneplus
+net\.oneplus\..*
+oplus.*
+vendor\.oneplus
+vendor\.oneplus\..*
+vendor\.oplus
+vendor\.oplus\..*
 
 # QC adds
 com.qualcomm.qti
