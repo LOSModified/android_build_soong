@@ -260,6 +260,20 @@ org\.lineageos\.platform\.internal
 com\.nvidia
 com\.nvidia\..*
 
+# OnePlus
+# OPlus
+com\.oneplus
+com\.oneplus\..*
+com\.oplus
+com\.oplus\..*
+net\.oneplus
+net\.oneplus\..*
+oplus.*
+vendor\.oneplus
+vendor\.oneplus\..*
+vendor\.oplus
+vendor\.oplus\..*
+
 # QC adds
 com.qualcomm.qti
 com.quicinc.tcmiface
