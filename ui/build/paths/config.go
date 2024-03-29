@@ -142,6 +142,7 @@ var Configuration = map[string]PathConfig{
 	"zcat":           Allowed,
 	"zip":            Allowed,
 	"zip2zip":        Allowed,
+	"zipdetails":     Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
