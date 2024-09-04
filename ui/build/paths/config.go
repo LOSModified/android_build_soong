@@ -133,6 +133,7 @@ var Configuration = map[string]PathConfig{
 	"repo":           Allowed,
 	"rsync":          Allowed,
 	"sh":             Allowed,
+	"size":           Allowed,
 	"stubby":         Allowed,
 	"tr":             Allowed,
 	"unzip":          Allowed,
