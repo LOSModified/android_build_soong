@@ -312,6 +312,9 @@ com\.quicinc\..*
 org\.codeaurora\..*
 qcom\.fmradio
 
+# Xiaomi adds
+com\.xiaomi\..*
+
 ###################################################
 # IFAA Manager used for Alipay and/or WeChat payment
 org\.ifaa\.aidl.*
